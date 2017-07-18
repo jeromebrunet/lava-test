@@ -1,0 +1,15 @@
+metadata:
+        format: Lava-Test Test Definition 1.0
+        name: simple ping
+        description: "Simple ping test of the network gateway"
+        version: 1.0
+        os:
+                - debian
+        scope:
+                - functional
+
+run:
+        steps:
+                - lava-test-case first-try --result pass
+
+
