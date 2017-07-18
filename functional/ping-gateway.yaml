@@ -10,6 +10,6 @@ metadata:
 
 run:
         steps:
-                - lava-test-case first-try --result pass
+                - ./functional/ping-gateway.sh -c 15
 
 
